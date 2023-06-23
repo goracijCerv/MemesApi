@@ -5,24 +5,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Generador Random de Memes</title>
     <link rel="stylesheet" href="estilos.css">
-    <script src="/script.js"></script>
+    <script src="./script.js"></script>
 </head>
-<body>
+<body onload="loadMeme()">
     <div class="fondo">
-        <img src="/Assets/background.jpg" alt="imagen de fondo">
+        <img src="./Assets/background.jpg" alt="imagen de fondo">
     </div>
     <div class="contenedor">
         <div class="titulo">
-            <h3 id="head"></h3>
+            <h3 id="head">tacos de asada</h3>
         </div>
         <div class="meme">
-            <img src="" alt="meme" id="meme">
+            <img src="tacos de asada" alt="meme" id="meme">
         </div>
         <div class="comment">
-            <p id="texto"></p>
+            <p id="texto">tacos de asada</p>
         </div>
         <div class="btn">
-            <button>Siguiente</button>
+            <button onclick="loadMeme()">Siguiente</button>
         </div>
     </div>
 </body>
