@@ -25,7 +25,7 @@ body{
 .titulo{
     height: 5vh;
 }
-.titulo h3{
+.titulo h1{
     text-align: center;
     color: #f0f0f0;
     font-family: monospace;
@@ -48,6 +48,7 @@ body{
     color: #f0f0f0;
     font-family: monospace;
     margin-top: 12px;
+    margin-bottom: 12px;
 }
 .btn{
     height: 8vh;
